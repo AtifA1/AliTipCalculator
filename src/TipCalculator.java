@@ -21,7 +21,8 @@ public class TipCalculator {
             people--;
         }
         System.out.println("The total before tips is: $" + totalBeforeTip);
-        System.out.print("Total percentage: " + tip);
+        System.out.print("Total percentage: " + tip + "%");
+
 
     }
 }
