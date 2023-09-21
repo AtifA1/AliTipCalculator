@@ -12,17 +12,14 @@ public class TipCalculator {
 
         double totalBeforeTip = 0;
 
-        while (people != 0) {
+        while (people != -1) {
             System.out.print("Enter a cost in dollars and cents, e.g. 12.50 (-1 to the end): ");
             double cost = scan.nextDouble();
-            if (cost != -1) {
-                totalBeforeTip += cost;
-            }
+            totalBeforeTip += cost;
             people--;
         }
         System.out.println("The total before tips is: $" + totalBeforeTip);
         System.out.print("Total percentage: " + tip + "%");
-
 
     }
 }
