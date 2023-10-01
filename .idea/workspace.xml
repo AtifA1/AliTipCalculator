@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8ac7d4d-3335-4333-9fa2-a0a5611c7936" name="Changes" comment="%">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c8ac7d4d-3335-4333-9fa2-a0a5611c7936" name="Changes" comment="I made the code more organized and I also added my freestyle.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TipCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TipCalculator.java" afterDir="false" />
     </list>
@@ -73,7 +72,7 @@
       <workItem from="1695335832313" duration="88000" />
       <workItem from="1695340395651" duration="18000" />
       <workItem from="1695950084460" duration="1095000" />
-      <workItem from="1696171733735" duration="2437000" />
+      <workItem from="1696171733735" duration="5091000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1695316397909</created>
@@ -96,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695318622845</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="I made the code more organized and I also added my freestyle.">
+      <option name="closed" value="true" />
+      <created>1696174485822</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696174485823</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +113,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added total before tip" />
     <MESSAGE value="%" />
-    <option name="LAST_COMMIT_MESSAGE" value="%" />
+    <MESSAGE value="I made the code more organized and I also added my freestyle." />
+    <option name="LAST_COMMIT_MESSAGE" value="I made the code more organized and I also added my freestyle." />
   </component>
 </project>

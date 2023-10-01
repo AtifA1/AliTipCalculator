@@ -16,15 +16,25 @@ public class TipCalculator {
 
 
         double totalBeforeTip = 1;
-        double cost;
-        cost = 0;
+        double cost = 0;
+        String itemsOrdered = "";
 
         //This while loop will continuously ask the user to enter a cost. Once the user types -1 it will stop.
-        while (cost != -1) {
+        while (true) {
             System.out.print("Enter a cost in dollars and cents, e.g. 12.50 (-1 to the end): ");
             cost = scan.nextDouble();
             totalBeforeTip += cost;
+            //From python
+            if (cost == -1) {
+                break;
+            }
+            //EXTRA CREDIT
+            scan.nextLine();
+            System.out.print("Enter the item: ");
+            String item = scan.nextLine();
+            itemsOrdered += item + "\n";
         }
+
         // Calculate the discount amount based on the total bill and discount percentage
         double discountAmount = totalBeforeTip * discountPercentage / 100.0;
 
@@ -39,7 +49,7 @@ public class TipCalculator {
         double perPersonTotalCost = totalWithTip / people;
 
         //This is the receipt created
-        System.out.println("----------------------------------");
+        System.out.println("\n----------------------------------");
         System.out.println("Total bill before tip: $" + Math.round(totalBeforeTip * 100.0)/ 100.0);
         System.out.println("Total tip percentage: " + tipPercentage + "%");
         System.out.println("Total tip: $" + Math.round(tipAmount * 100.0)/ 100.0);
@@ -48,5 +58,7 @@ public class TipCalculator {
         System.out.println("Tip per person: $" + Math.round(perPersonTipAmount * 100.0) / 100.0);
         System.out.println("Total cost per person: $" + Math.round(perPersonTotalCost * 100.0) / 100.0);
         System.out.println("Discount applied: $" + Math.round(discountAmount * 100.0) / 100.0);
+        System.out.println("----------------------------------");
+        System.out.println("Items ordered:\n" + itemsOrdered);
     }
 }
